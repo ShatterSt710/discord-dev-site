@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0a0a0a;
+    color: #d1b3ff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.9);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 0, 255, 0.2);
+    z-index: 1000;
+}
+
+header h1 {
+    color: #c77dff;
+    text-shadow: 0 0 10px #c77dff;
+    font-size: 1.8em;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav {
+    display: inline;
+}
+
+nav a {
+    color: #b784ff;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.join-btn {
+    background: #7000ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+.join-btn:hover {
+    background: #5500cc;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #1a1a1a, #5500cc);
+    padding: 100px 20px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 20px rgba(200, 0, 255, 0.3);
+}
+
+.hero h2 {
+    font-size: 3em;
+    color: #d1b3ff;
+    text-shadow: 0 0 15px #ff00ff;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    color: #fff;
+    background: #7000ff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #5500cc;
+}
+
+/* What We Offer Section */
+.offer-item {
+    background: #181818;
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(200, 0, 255, 0.3);
+    text-align: center;
+}
+
+.offer-item h3 {
+    color: #c77dff;
+    text-shadow: 0 0 10px #c77dff;
+}
+
+.offer-item p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #d1b3ff;
+}
+
+.price {
+    display: block;
+    font-size: 1.3em;
+    color: #ff00ff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Sections */
+.content-section {
+    padding: 80px 20px;
+    background: #111;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.3);
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #c77dff;
+    text-shadow: 0 0 10px #c77dff;
+}
+
+/* Footer */
+footer {
+    background: #1a1a1a;
+    padding: 15px;
+    color: #b784ff;
+    margin-top: 50px;
+}
